@@ -1,0 +1,8 @@
+Para utilizar el script solamente necesitas instalar la version mas nueva estable de python y luego ejecutar las siguientes lineas de instalacion de paquetes en tu powershell 
+
+Puede que tengas problema si no tienes python en el Path del sistema, ejecutalas sin mas a menos que te encuentres con ese problema, si lo encuentras agregap python a la Path
+
+
+
+pip install requests
+pip install beautifulsoup4
