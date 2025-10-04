@@ -1,0 +1,6 @@
+CREATE VECTOR INDEX `chunk_embeddings` IF NOT EXISTS
+FOR (c:Chunk) ON (c.embedding)
+OPTIONS {indexConfig: {
+  `vector.dimensions`: 1536,
+  `vector.similarity_function`: 'cosine'
+}}
